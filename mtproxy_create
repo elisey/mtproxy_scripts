@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -d -p6869:443 --name=mtproto-proxy --restart=always -v proxy-config:/data telegrammessenger/proxy:latest

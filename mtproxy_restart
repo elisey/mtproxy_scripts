@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "`date` ========== Restarting mtproxy =========="
+./mtproxy_stop
+echo "`date` mtproxy stopped"
+sleep 5
+./mtproxy_start
+echo "`date` mtproxy started"
+echo ""
