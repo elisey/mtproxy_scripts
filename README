@@ -1,0 +1,3 @@
+To restart mtproxy every night run script in cron
+
+0 1 * * * cd $HOME/mtproxy/ && ./mtproxy_restart  >> $HOME/mtproxy/cron.log 2>&1
